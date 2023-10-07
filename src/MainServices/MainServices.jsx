@@ -3,6 +3,7 @@ import Service from "./Service";
 
 
 
+
 const MainServices = () => {
  
     const mainData = useLoaderData();
@@ -10,7 +11,8 @@ const MainServices = () => {
 
     return (
         <div>
-            <div className="flex justify-center mt-10 ">
+         
+            <div className="flex justify-center mt-16">
             <img src="https://i.ibb.co/1qVZJpB/logo1.webp" alt="" className="w-20" />
             </div>
             <p className="text-center font-bold">What We Offer</p>
