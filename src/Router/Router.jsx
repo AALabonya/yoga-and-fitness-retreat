@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import ErrorPage from "../pages/ErrorPages/ErrorPage";
 import MainServices from "../MainServices/MainServices";
 import YogaProducts from "../YogaProducts/YogaProducts";
+import ServiceList from "../ServicePage/ServiceList";
 
 const myCreateRouter = createBrowserRouter([
     {
@@ -18,8 +19,7 @@ const myCreateRouter = createBrowserRouter([
             },
             {
                 path:"/services",
-                element:<MainServices/>,
-                loader:()=> fetch('/data.json')
+                element:<ServiceList/>
             },
             {
                 path:"/shop",

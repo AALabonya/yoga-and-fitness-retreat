@@ -1,9 +1,8 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-
-const Service = ({ data }) => {
-    const { name, price, description, image } = data
+const ServiceData = ({item}) => {
+    const { name, price, description, image } = item
     return (
 
        <div>
@@ -63,4 +62,4 @@ const Service = ({ data }) => {
     );
 };
 
-export default Service;
+export default ServiceData;
