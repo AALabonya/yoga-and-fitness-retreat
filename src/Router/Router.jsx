@@ -5,6 +5,7 @@ import ErrorPage from "../pages/ErrorPages/ErrorPage";
 import MainServices from "../MainServices/MainServices";
 import YogaProducts from "../YogaProducts/YogaProducts";
 import ServiceList from "../ServicePage/ServiceList";
+import Specialist from "../Specialist/Specialist";
 
 const myCreateRouter = createBrowserRouter([
     {
@@ -24,7 +25,8 @@ const myCreateRouter = createBrowserRouter([
             {
                 path:"/shop",
                 element:<YogaProducts></YogaProducts>
-            }
+            },
+           
         ]
     },
    

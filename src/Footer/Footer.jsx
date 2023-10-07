@@ -4,10 +4,10 @@ const Footer = () => {
     return (
         <div className="mt-10">
             <footer className="footer footer-center p-10 bg-green-300 text-base-content rounded">
-                <nav className="grid grid-flow-col gap-4 text-xl font-bold">
+                <nav className="grid grid-flow-col gap-4 lg:text-xl font-bold">
                     <Link to="/">Home</Link>
                     <Link to="/services">Services</Link>
-                    <Link to="/feature">Features</Link>
+                    <Link to="/specialist">Specialist</Link>
                     <Link to="classes">Classes</Link>
                     <Link to="/shop">Shop</Link>
 

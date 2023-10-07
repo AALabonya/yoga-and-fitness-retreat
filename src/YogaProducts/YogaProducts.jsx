@@ -1,7 +1,6 @@
 
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, A11y } from 'swiper/modules';
+import { Navigation, A11y,Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/bundle'
 import { useEffect, useState } from "react";
@@ -30,7 +29,13 @@ const YogaProducts = () => {
 
                     slidesPerView={4}
                     spaceBetween={40}
-                    modules={[Navigation, A11y]}>
+                    pagination={{
+                        clickable: true,
+                      }}
+                    navigation={true}
+                    modules={[Navigation,Pagination, A11y]}
+                    
+                    >
                     {
                         products.map(product => <SwiperSlide key={product.id} className="p-2">
 
