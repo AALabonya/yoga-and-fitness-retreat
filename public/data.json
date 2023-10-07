@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Tranquil Mountain Retreat",
+      "price": "$1,199",
+      "description": "Escape to the serene mountains and rejuvenate your body and soul with daily yoga sessions, meditation, and nature hikes.",
+      "image": "https://i.ibb.co/Nj5jVgx/card1.webp "
+    },
+    {
+      "id": 2,
+      "name": "Beachside Bliss Yoga Retreat",
+      "price": "$1,499",
+      "description": "Unwind by the beach, practice yoga on the shore, and enjoy healthy, organic meals in this tropical paradise.",
+      "image": "https://i.ibb.co/BN5NLRq/pic9.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Wellness Oasis Retreat",
+      "price": "$999",
+      "description": "Recharge your mind and body in a luxurious spa setting with yoga, meditation, and personalized wellness programs.",
+      "image": "https://i.ibb.co/DDKXsNy/women.jpg "
+    },
+    {
+      "id": 4,
+      "name": "Forest Yoga Escape",
+      "price": "$1,299",
+      "description": "Connect with nature as you practice yoga and mindfulness surrounded by lush forests and wildlife.",
+      "image": "https://i.ibb.co/XSWW0sx/card12.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Desert Yoga Retreat",
+      "price": "$1,199",
+      "description": "Experience the tranquility of the desert, explore ancient cultures, and practice yoga under the starry night sky.",
+      "image": "https://i.ibb.co/3SbMcWR/card2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Island Paradise Yoga Retreat",
+      "price": "$1,799",
+      "description": "Escape to a tropical island, immerse yourself in yoga, snorkeling, and island adventures in a lush paradise.",
+      "image": "https://i.ibb.co/9Tkg5sD/card7.webp"
+    }
+  ]
+  
