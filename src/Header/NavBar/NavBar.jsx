@@ -13,7 +13,7 @@ const NavBar = () => {
     
     </>
     return (
-        <div className="fixed top-0 w-full bg-white z-20">
+        <div className="lg:fixed lg:top-0 lg:w-full lg:bg-white lg:z-20">
             <div className=" max-w-7xl flex mx-auto px-3">
            <div className="navbar bg-base-100 ">
   <div className="navbar-start">
