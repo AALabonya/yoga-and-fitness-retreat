@@ -2,10 +2,13 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+
 const Services = ({data}) => {
-    const { name, price, description, image } = data
+    const { id,name, price, description, image } = data
     return (
 
+      
        <div>
          <div className="text-center flex justify-center ">
             <div className="relative flex w-full space-y-2 max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
@@ -47,6 +50,7 @@ const Services = ({data}) => {
                    </div>
                   </div>
                 </div>
+                <Link to={`service/${id}`}>
                 <div className="p-6 pt-3">
                     <button
                         className="block w-full select-none rounded-lg bg-green-700 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -56,10 +60,12 @@ const Services = ({data}) => {
                         view Details
                     </button>
                 </div>
+                </Link>
                 </div>
             </div>
         </div>
        </div>
+      
     );
 };
 

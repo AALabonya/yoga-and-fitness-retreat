@@ -8,7 +8,6 @@ const Footer = () => {
                     <Link to="/">Home</Link>
                     <Link to="/services">Services</Link>
                     <Link to="/specialist">Specialist</Link>
-                    <Link to="classes">Classes</Link>
                     <Link to="/shop">Shop</Link>
 
 

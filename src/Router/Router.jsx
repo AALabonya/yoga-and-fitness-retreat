@@ -6,6 +6,8 @@ import YogaProducts from "../YogaProducts/YogaProducts";
 import ServiceList from "../ServicePage/ServiceList";
 import Register from "../Login/Register";
 import Login from "../Login/Login";
+import ViewShowDetails from "../ViewDetails/ViewShowDetails";
+import PrivateRoute from "./PrivateRoute";
 
 
 const myCreateRouter = createBrowserRouter([
@@ -21,11 +23,16 @@ const myCreateRouter = createBrowserRouter([
             },
             {
                 path:"/services",
-                element:<ServiceList/>
+                element:<PrivateRoute><ServiceList/></PrivateRoute>
             },
             {
                 path:"/shop",
-                element:<YogaProducts></YogaProducts>
+                element:<PrivateRoute><YogaProducts></YogaProducts></PrivateRoute>
+            },
+            {
+               path:"/service/:id",
+               element:<ViewShowDetails></ViewShowDetails>,
+               loader:()=>fetch('/data.json')
             },
             {
                 path:"/register",

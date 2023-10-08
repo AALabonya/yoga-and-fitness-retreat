@@ -17,12 +17,13 @@ const ServiceList = () => {
         <div className="mt-28">
             <div>
 
-                <div className="h-[500px] " style={{
-                    backgroundImage: 'url(https://i.ibb.co/N27G3Qh/yogaex.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center',
-                }}>
+                <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+                    <img
+                        src="https://i.ibb.co/N27G3Qh/yogaex.jpg"
+                        alt="img-blur-shadow" className="w-[1600px] h-[600px]"
+
+                    />
+
 
                 </div>
             </div>

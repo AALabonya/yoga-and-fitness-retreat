@@ -1,80 +1,80 @@
 [
     {
         "id": 1,
-        "name": "Relaxing Yoga Retreat",
-        "price": 500,
+        "name": "Best Yoga Bag",
+        "price": 120,
         "picture": "https://i.ibb.co/ZxsMS02/bag.jpg"
     },
     {
         "id": 2,
-        "name": "Intensive Fitness Bootcamp",
-        "price": 800,
+        "name": "Premium Backpack",
+        "price": 60,
         "picture": "https://i.ibb.co/bLZYrYq/backpack.jpg"
     },
     {
         "id": 3,
-        "name": "Meditation and Mindfulness Retreat",
-        "price": 450,
+        "name": "Premium Mate",
+        "price": 100,
         "picture": "https://i.ibb.co/YL6TPyF/mate1.jpg"
     },
     {
         "id": 4,
-        "name": "Beachfront Yoga and Wellness Retreat",
-        "price": 650,
+        "name": "Multi Yoga Mate",
+        "price": 90,
         "picture": "https://i.ibb.co/QPJXBP3/multi.jpg"
     },
     {
         "id": 5,
-        "name": "Mountain Yoga and Hiking Retreat",
-        "price": 700,
+        "name": "Organic Yoga Mate",
+        "price": 60,
         "picture": "https://i.ibb.co/MnXhkmr/organic-yoga-mat.webp"
     },
     {
         "id": 6,
-        "name": "Luxury Spa and Wellness Retreat",
-        "price": 1200,
+        "name": "Strap Yoga Mate",
+        "price": 12,
         "picture": "https://i.ibb.co/JHtFtXg/strap.webp"
     },
     {
         "id": 7,
-        "name": "Detox and Cleanse Retreat",
-        "price": 550,
+        "name": "Yoga Package",
+        "price": 150,
         "picture": "https://i.ibb.co/qMkYKRR/shoes.jpg"
     },
     {
         "id": 8,
-        "name": "Yoga and Surfing Adventure",
-        "price": 850,
+        "name": "Yoga Shoes",
+        "price": 85,
         "picture": "https://i.ibb.co/rys224X/yoga-shoes.webp"
     },
     {
         "id": 9,
-        "name": "Mind-Body Connection Retreat",
-        "price": 600,
+        "name": "Premium Package",
+        "price": 200,
         "picture": "https://i.ibb.co/SxV0hS2/mat3.jpg"
     },
     {
         "id": 10,
-        "name": "Fitness and Nutrition Bootcamp",
-        "price": 900,
+        "name": "Hot Pink Shoes",
+        "price": 90,
         "picture": "https://i.ibb.co/QcgKh0q/shoess.jpg"
     },
     {
         "id": 11,
-        "name": "Yoga and Meditation in Nature",
-        "price": 650,
+        "name": "Yoga Green Sneakers",
+        "price": 50,
         "picture": "https://i.ibb.co/4s5Z3SP/woman-tying-her-green-sneakers.jpg"
     },
     {
         "id": 12,
-        "name": "Wellness Retreat by the Beach",
-        "price": 750,
+        "name": "Kettlebell",
+        "price": 75,
         "picture": "https://i.ibb.co/6tF1gyt/Free-photo-woman-exercising-with-kettlebell-side-view.jpg"
     },
     {
         "id": 13,
-        "name": "Adventure Fitness Camp",
-        "price": 1100,
+        "name": "Yoga rest Ring",
+        "price": 11,
         "picture": "https://i.ibb.co/Sxtm18K/female-is-stretching-her-body-floor-rest-room-613910-9062.jpg"
     }
 ]
