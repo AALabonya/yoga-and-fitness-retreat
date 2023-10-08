@@ -28,7 +28,7 @@ const ServiceList = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-16">
-                <img src="https://i.ibb.co/1qVZJpB/logo1.webp" alt="" className="w-20" />
+            <img src="https://i.ibb.co/1qVZJpB/logo1.webp" alt="" className="w-20" />
             </div>
             <p className="text-center font-bold">What We Offer</p>
             <h1 className="text-center font-bold mt-2 text-4xl mb-2">Our Main Services</h1>

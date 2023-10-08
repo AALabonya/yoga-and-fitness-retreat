@@ -1,8 +1,13 @@
-# React + Vite
+# Yoga And Fitness Retreats 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Add at least five bullet points mentioning different features and functionalities of your website.
 
-Currently, two official plugins are available:
+ - My website is responsive. I ensure that my website is functioning well in all devices, including smartphone, tablet, and desktop.
+ - Meet our Specialists a dedicated section where users can get to know there yoga and fitness specialists in detail.This feature helps users connect on a personal level with the instructors and make informed choices when selecting classes or retreats.
+ - Displays clear pricing information for different retreats and classes.
+ -  I have added dynamic service details where users saw Schedule and Calendar.
+ - Our website have e-commerce platform where users can purchase yoga and fitness-related products like yoga mats, clothing, accessories, wellness products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+

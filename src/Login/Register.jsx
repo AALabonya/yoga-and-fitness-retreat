@@ -1,6 +1,6 @@
 
 import { useContext, useState } from "react";
-import { Link, Navigate, useNavigate, } from "react-router-dom";
+import { Link, useNavigate, } from "react-router-dom";
 import { AuthContext } from "../ContextProvider/AuthProvider";
 import swal from 'sweetalert';
 
@@ -9,9 +9,9 @@ const Register = () => {
     const [showError, setShowError] = useState('')
 
     const navigate = useNavigate()
-    const { createUser, logOut,updateUser} = useContext(AuthContext)
+    const { createUser, logOut, updateUser } = useContext(AuthContext)
 
-   
+
 
     const handleRegister = e => {
 
@@ -20,25 +20,32 @@ const Register = () => {
         const image = e.target.img.value
         const email = e.target.email.value
         const password = e.target.password.value
-        console.log(name,image,email,password);
-       //password
-        
-        createUser(email,password)
-        .then((result)=>{
-            
-            swal("Good job!", "You clicked the button!", "success");
-            if(result.user){
-                updateUser({
-                    displayName: name,
-                    photoURL: image
+        console.log(name, image, email, password);
+
+        //password
+        if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&]{6,}$/.test(password)) {
+            setShowError("Password al least 6 character number uppercase  and special character");
+            return
+        } else {
+            createUser(email, password)
+                .then((result) => {
+
+                    swal("Good job!", "You clicked the button!", "success");
+                    if (result.user) {
+                        updateUser({
+                            displayName: name,
+                            photoURL: image
+                        })
+                    }
+                    navigate("/login")
+                    logOut()
                 })
-            }
-            navigate("/login")
-            logOut()
-        })
-         .catch(error=>{
-            console.log(error);
-         })
+                .catch(error => {
+                    console.log(error);
+                })
+        }
+
+
         e.target.reset()
     }
 

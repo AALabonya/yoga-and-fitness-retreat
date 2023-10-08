@@ -29,7 +29,7 @@ const Specialist = () => {
                             </div>
                             
                             <h4 className="text-white text-center font-bold">Dr.Ron Overberg</h4>
-                            <p className="text-white text-center">Health,Spa,Fitness,Meditation retreat expert</p>
+                            <p className="text-white text-center">Spa, Fitness, Meditation retreat expert</p>
                            </div>
                            <div>
                             <div className="flex justify-center">
@@ -43,7 +43,7 @@ const Specialist = () => {
                             <div className="flex-1 justify-center">
                                 <img src={Doctor2} alt="" className="rounded-full p-20 lg:p-10"/>
                                 <h4 className="text-white text-center font-bold">Dr.Danial</h4>
-                            <p className="text-white text-center">BODYBIO & BIOMEDICAL NUTRITIONIST</p>
+                            <p className="text-white text-center">Health, Bodybio & Biomedical Nutritionist</p>
                             </div>
                            
                            

@@ -1,12 +1,14 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../ContextProvider/AuthProvider";
 import { FaGoogle } from "react-icons/fa";
+import swal from 'sweetalert';
 const Login = () => {
 
+    const [logInError, setLogInError] = useState('')
 
     const { signIn, googleSignIn } = useContext(AuthContext)
     const location = useLocation()
@@ -18,19 +20,31 @@ const Login = () => {
         const email = e.target.email.value
         const password = e.target.password.value
 
-        signIn(email, password)
-            .then(result => {
-                navigate(location?.state ? location.state : "/")
-            })
-            .catch(error => console.error(error))
+        if (email, password) {
+            signIn(email, password)
+                .then(result => {
+                    swal("Good job!", "You clicked the button!", "success");
+                    navigate(location?.state ? location.state : "/")
+                })
+                .catch(error => console.error(error))
+
+        } else {
+            setLogInError("Invalid Email and password")
+        }
+
+
+
 
     }
+
+
 
     const handleGoogle = e => {
         e.preventDefault()
 
         googleSignIn()
             .then(result => {
+                swal("Good job!", "You clicked the button!", "success");
                 console.log(result.user);
             })
             .catch(error => {
@@ -56,7 +70,7 @@ const Login = () => {
                         <input type="password" name="password" id="password" placeholder="Password" className="bg-gray-50 border input border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
                     </div>
                     <div className="flex items-start">
-                       
+
                         <a href="#" className="text-sm text-blue-700 hover:underline dark:text-blue-500 ml-2">Forget Password?</a>
                     </div>
                     <button type="submit" className="w-full text-white bg-green-700 hover:bg-green-900 focus:ring-4 focus:outline-none rounded-lg py-2">Login</button>
@@ -67,6 +81,9 @@ const Login = () => {
                     <Link> <p className="text-center mt-5"><button onClick={handleGoogle} className="btn border-blue-500 font-bold text-blue-500"><FaGoogle className="text-blue-500"></FaGoogle> Login with Google</button></p></Link>
 
                 </form>
+                {
+                    logInError && <p className="text-red-400">{logInError}</p>
+                }
             </div>
 
         </div>
