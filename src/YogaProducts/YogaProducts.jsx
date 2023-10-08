@@ -14,8 +14,6 @@ const YogaProducts = () => {
     .then(data=>setProducts(data))
    },[])
 
-   console.log(products);
-
     return (
         <div>
             <div className="flex justify-center mt-10 ">
