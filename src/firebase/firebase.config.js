@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDtmHB_5T0HmD1VtfDMTsT7K-UMMWy0V34",
-  authDomain: "yoga-and-fitness-retreat-96285.firebaseapp.com",
-  projectId: "yoga-and-fitness-retreat-96285",
-  storageBucket: "yoga-and-fitness-retreat-96285.appspot.com",
-  messagingSenderId: "632608215769",
-  appId: "1:632608215769:web:a9df2fb8591e16a824a4c8"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
 };
 
 // Initialize Firebase

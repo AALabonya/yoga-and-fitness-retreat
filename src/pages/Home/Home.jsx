@@ -8,11 +8,10 @@ import YogaProducts from "../../YogaProducts/YogaProducts";
 
 const Home = () => {
     return (
-        <div className="lg:mt-28">
+        <div className="">
             <Banner></Banner>
             <MainServices />
-
-            <Specialist />
+             <Specialist />
             <YogaProducts />
             <Contracts />
 

@@ -6,11 +6,8 @@ const ViewShowDetails = () => {
   const [view, setView] = useState([])
 
   const showDetails = useLoaderData()
-  console.log(showDetails);
-
+  
   const id = useParams()
-
-  console.log(id);
 
   useEffect(() => {
     const service = showDetails.find(service => service.id == id.id)
@@ -21,25 +18,15 @@ const ViewShowDetails = () => {
 
 
   return (
-    <div className="mt-32 flex justify-center w-full">
-      <div className="relative flex flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-        <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-          <img
-            src={view?.image}
-            alt="image"
-            className="h-full w-full object-cover"
-          />
-        </div>
-        <div className="p-6">
-          <h4 className="mb-2 block font-sans text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased text-green-800">
-            {view?.name}
-          </h4>
-          <p className="mb-4 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-            {view?.description1}
-          </p>
-          <div className="mb-4 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-            <div className="flex lg:gap-10">
-              <div>
+   <div className="lg:flex lg:justify-center mt-32">
+ <div className="card  bg-base-100 shadow-xl">
+  <figure><img src={view?.image} alt="image" className="w-70 " /></figure>
+  <div className="card-body">
+    <h2 className="card-title">{view?.name}</h2>
+    <p className="w-[250px] md:w-[600px] lg:w-[800px]">{view?.description1}</p>
+    <div>
+    <div className="">
+              <div className="mb-4">
                 <span className="font-bold">Schedule:<br /> Class : </span>
                 {view?.schedule?.[0].class}
                 <span className="font-bold"><br /> Day : </span>
@@ -58,13 +45,14 @@ const ViewShowDetails = () => {
                 <span className="font-bold"> Time : </span>
                 {view?.schedule?.[0].time1}
               </div>
+              <p className="font-bold mb-2 mt-3">Price: {view?.price}</p>
             </div>
-          </div>
-          <p className="mb-4 font-bold block font-sans text-base leading-relaxed text-gray-700 antialiased">Price: {view?.price}</p>
-          <p className="mb-4 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-            <span className="lg:text-xl text-green-800 font-bold">Our Facilities</span><br />
+    </div>
+    <div className="w-[200px] lg:w-[500px]">
+           <span className="lg:text-xl text-green-800 font-bold">Our Facilities</span><br />
+            <div className="md:w-[600px]">
             <span className="font-bold">{view?.facilities?.[0].name} :<br /></span>
-            {view?.facilities?.[0].description} <br />
+           <span className=""> {view?.facilities?.[0].description} <br /></span>
 
             <span className="font-bold">{view?.facilities?.[1].name} :<br /></span>
             {view?.facilities?.[1].description}<br />
@@ -79,11 +67,13 @@ const ViewShowDetails = () => {
             {view?.facilities?.[4].description}<br />
             <span className="font-bold">{view?.facilities?.[5].name} :<br /></span>
             {view?.facilities?.[5].description}<br />
-          </p>
-        </div>
-      </div>
-    </div>
+            </div>
+           </div>
+  </div>
+</div>
+   </div>
   );
 };
 
 export default ViewShowDetails;
+

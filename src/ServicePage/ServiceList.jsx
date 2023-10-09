@@ -14,7 +14,7 @@ const ServiceList = () => {
 
 
     return (
-        <div className="lg:mt-28 mt-5">
+        <div className="mt-5">
             <div>
 
                 <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">

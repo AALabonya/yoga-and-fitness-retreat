@@ -8,18 +8,18 @@ AOS.init();
 
 const Banner = () => {
   return (
-    <div className='mt-5 overflow-x-hidden' data-aos="zoom-in" >
+    <div className='overflow-x-hidden' data-aos="zoom-in" >
       <Swiper
         slidesPerView={1}
         spaceBetween={20}
         loop={true}
         navigation={true}
         modules={[Navigation, A11y]}
-        className="mySwiper lg:h-[600px]">
+        className="mySwiper">
 
         <SwiperSlide>
           <div className='overflow-x-hidden' data-aos="zoom-in">
-            <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-auto overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img
                 src="https://i.ibb.co/8gtfcKt/pic13.jpg"
                 alt="img-blur-shadow" className="w-[1600px] h-[600px]" />
@@ -40,7 +40,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div data-aos="zoom-in-left">
-            <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img
                 src="https://i.ibb.co/74HGZ2N/pic14.jpg"
                 alt="img-blur-shadow" className="w-[1600px] h-[600px]" />
@@ -57,7 +57,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img
                 src="https://i.ibb.co/Nj5jVgx/card1.webp"
                 alt="img-blur-shadow" className="w-[1600px] h-[600px]" />
@@ -74,7 +74,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img
                 src="https://i.ibb.co/3TKqnBJ/massage-spa-relaxing-treatment.jpg"
                 alt="img-blur-shadow" className="w-[1600px] h-[600px]" />
@@ -91,7 +91,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img
                 src="https://i.ibb.co/n1BRHq1/ok.jpg"
                 alt="img-blur-shadow" className="w-[1600px] h-[600px]" />
@@ -108,7 +108,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div data-aos="zoom-in">
-            <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img
                 src="https://i.ibb.co/DDKXsNy/women.jpg"
                 alt="img-blur-shadow" className="w-[1600px] h-[600px]" />

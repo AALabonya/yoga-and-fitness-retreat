@@ -25,14 +25,13 @@ const Login = () => {
         const password = e.target.password.value
 
         signIn(email, password)
-            .then((result) => {
-                console.log(result.user);
-                navigate(location?.state ? location.state : "/")
+            .then(() => {
+               navigate(location?.state ? location.state : "/")
                 swal("Good job!", "Log in Successful!", "success")
 
             })
             .catch(() => {
-                setLogInError("Invalid Email and password")
+                setLogInError("Invalid Email or password")
             })
 
         e.target.reset()
@@ -55,11 +54,11 @@ const Login = () => {
 
 
     return (
-        <div className="lg:mt-32 flex justify-center">
+        <div className="lg:mt-32 md:mt-32 flex justify-center">
 
             <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <form onSubmit={handleLogin} className="space-y-6">
-                    <h5 className="text-2xl font-bold text-center bg-green-600 rounded-lg py-4 w-full text-white dark:text-white">LogIn</h5>
+                    <h5 className="text-2xl font-bold text-center bg-green-600 rounded-lg py-2 md:py-4 lg:py-4 w-full text-white dark:text-white">LogIn</h5>
 
                     <div>
                         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>

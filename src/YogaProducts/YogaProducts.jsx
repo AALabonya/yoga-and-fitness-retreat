@@ -21,13 +21,13 @@ const YogaProducts = () => {
     return (
         <div className='overflow-x-hidden'>
             <div className='mt-5'>
-                <div className="relative mx-4 -mt-6 h-[] rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+                <div className="relative mx-4 -mt-6 h-[600px] rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                     <img
                         src="https://i.ibb.co/Sxtm18K/female-is-stretching-her-body-floor-rest-room-613910-9062.jpg"
                         alt="img-blur-shadow" className="w-[1600px] h-[600px]" />
                 </div>
             </div>
-            <div className="flex justify-center mt-10 ">
+            <div className="flex justify-center mt-18 ">
                 <img src="https://i.ibb.co/1qVZJpB/logo1.webp" alt="" className="w-20" />
             </div>
             <p className="text-center font-bold">Our Shop</p>
@@ -49,8 +49,8 @@ const YogaProducts = () => {
                     modules={[Navigation, Pagination, A11y]}
                 >
                     {
-                        products.map(product => <SwiperSlide key={product.id} className="p-2">
-                            <div className="card w-90 lg:w-96 md:w-96bg-base-100 shadow-xl">
+                        products.map(product => <SwiperSlide key={product.id}>
+                            <div className="card w-90 lg:w-96 md:w-96 bg-base-100 shadow-xl  mb-4">
                                 <figure className="px-10 pt-10 h-70">
                                     <img src={product.picture} alt="Shoes" className="rounded-xl h-52" />
                                 </figure>

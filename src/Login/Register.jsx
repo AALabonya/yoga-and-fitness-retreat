@@ -48,7 +48,7 @@ const Register = () => {
     }
 
     return (
-        <div className="lg:mt-28 flex justify-center">
+        <div className="lg:mt-28 md:mt-28 flex justify-center">
 
             <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <form onSubmit={handleRegister} className="space-y-6">
