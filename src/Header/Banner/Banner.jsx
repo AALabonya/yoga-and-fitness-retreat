@@ -8,7 +8,7 @@ AOS.init();
 
 const Banner = () => {
   return (
-    <div className='overflow-x-hidden lg:mt-20' data-aos="zoom-in" >
+    <div className='overflow-x-hidden lg:mt-20 mt-10' data-aos="zoom-in" >
       <Swiper
         slidesPerView={1}
         spaceBetween={20}

@@ -14,7 +14,7 @@ const DoctorList = () => {
 
 
     return (
-        <div className="lg:mt-32">
+        <div className="mt-10 lg:mt-32">
             <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                 <img
                     src="https://i.ibb.co/1rFC4n5/healthcare-medical.webp"
