@@ -20,9 +20,8 @@ const Register = () => {
         const image = e.target.img.value
         const email = e.target.email.value
         const password = e.target.password.value
-        console.log(name, image, email, password);
-
-        //password
+       
+      
         if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&]{6,}$/.test(password)) {
             setShowError("Password should be 6 character minimum with a number, an uppercase and a special character");
             return

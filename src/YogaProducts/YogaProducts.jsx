@@ -19,7 +19,7 @@ const YogaProducts = () => {
     }, [])
 
     return (
-        <div className='overflow-x-hidden'>
+        <div className='overflow-x-hidden mt-8 lg:mt-28'>
             <div className='mt-5'>
                 <div className="relative mx-4 -mt-6 h-[600px] rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                     <img

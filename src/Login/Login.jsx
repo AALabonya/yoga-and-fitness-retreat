@@ -27,11 +27,11 @@ const Login = () => {
         signIn(email, password)
             .then(() => {
                navigate(location?.state ? location.state : "/")
-                swal("Good job!", "Log in Successful!", "success")
+                swal("Good job!", "Login Successful!", "success")
 
             })
             .catch(() => {
-                setLogInError("Invalid Email or password")
+                setLogInError("Invalid Email or Password")
             })
 
         e.target.reset()
@@ -43,7 +43,7 @@ const Login = () => {
 
         googleSignIn()
             .then(() => {
-                swal("Good job!", "Google log in Successful!!", "success");
+                swal("Good job!", "Google login Successful!!", "success");
                 navigate(location?.state ? location.state : "/")
             })
             .catch(error => {
