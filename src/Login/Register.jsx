@@ -24,13 +24,13 @@ const Register = () => {
 
         //password
         if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&]{6,}$/.test(password)) {
-            setShowError("Password al least 6 character number uppercase  and special character");
+            setShowError("Password should be 6 character minimum with a number, an uppercase and a special character");
             return
         } else {
             createUser(email, password)
                 .then((result) => {
 
-                    swal("Good job!", "You clicked the button!", "success");
+                    swal("Good job!", "Registration Successful!", "success");
                     if (result.user) {
                         updateUser({
                             displayName: name,
@@ -44,13 +44,11 @@ const Register = () => {
                     console.log(error);
                 })
         }
-
-
         e.target.reset()
     }
 
     return (
-        <div className="mt-28 flex justify-center">
+        <div className="lg:mt-28 flex justify-center">
 
             <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <form onSubmit={handleRegister} className="space-y-6">
@@ -69,7 +67,7 @@ const Register = () => {
                     </div>
                     <div>
                         <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
-                        <input type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
+                        <input type="password" name="password" id="password" placeholder="Password" className="bg-gray-50 border input border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
                     </div>
                     <div className="flex items-start">
                         <div className="flex items-start">
@@ -78,7 +76,6 @@ const Register = () => {
                             </div>
                             <label
                                 className="mt-px cursor-pointer select-none font-light text-gray-700"
-                                htmlFor="checkbox"
                             >
                                 <p className="flex items-center font-sans text-sm font-normal leading-normal text-blue-700 antialiased ml-1">
                                     Terms and Conditions

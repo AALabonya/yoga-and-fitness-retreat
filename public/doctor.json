@@ -4,7 +4,8 @@
       "title": "Spa, Fitness, Meditation retreat expert",
       "description": "Dr. Ron Overberg is a renowned expert in spa, fitness, and meditation retreats. With a Ph.D. in Holistic Wellness and certifications as a Yoga Instructor and Meditation Master, he brings a wealth of knowledge and experience to help you achieve balance in mind, body, and soul.",
       "education": "Ph.D. in Holistic Wellness",
-      "degrees": ["Certified Yoga Instructor", "Meditation Master"],
+      "degree1": "Certified Yoga Instructor",
+      "degree2":"Meditation Master",
       "schedules": [
         { "day": "Monday", "time": "10:00 AM - 12:00 PM" },
         { "day": "Wednesday", "time": "2:00 PM - 4:00 PM" }
@@ -18,7 +19,8 @@
       "title": "Pregnancy Pilates, Yoga & Body Balance Instructor",
       "description": "Dr. Catherine Li specializes in pregnancy Pilates, yoga, and body balance. With a background in Physical Therapy and certifications as a Pilates Trainer and Yoga Alliance Certified Instructor, she empowers expecting mothers to stay active and find balance during pregnancy.",
       "education": "Masters in Physical Therapy",
-      "degrees": ["Certified Pilates Trainer", "Yoga Alliance Certified"],
+      "degree1": "Certified Pilates Trainer",
+      "degree2":"Yoga Alliance Certified",
       "schedules": [
         { "day": "Tuesday", "time": "11:00 AM - 1:00 PM" },
         { "day": "Thursday", "time": "3:00 PM - 5:00 PM" }
@@ -32,7 +34,8 @@
       "title": "Health, Bodybio & Biomedical Nutritionist",
       "description": "Dr. Danial is a seasoned Health, Bodybio, and Biomedical Nutritionist. With a Ph.D. in Nutritional Science and certifications as a Registered Dietitian and Certified Nutrition Specialist, he's dedicated to building a strong foundation of good health through personalized nutrition plans.",
       "education": "Ph.D. in Nutritional Science",
-      "degrees": ["Registered Dietitian", "Certified Nutrition Specialist"],
+      "degree1": "Registered Dietitian", 
+      "degree2":"Certified Nutrition Specialist",
       "schedules": [
         { "day": "Monday", "time": "9:30 AM - 11:30 AM" },
         { "day": "Wednesday", "time": "1:30 PM - 3:30 PM" }
@@ -46,7 +49,8 @@
       "title": "Registered Dietitian and Nutritionist",
       "description": "Aysha Siddika is a dedicated Registered Dietitian and Nutritionist. With a Masters in Clinical Nutrition and certifications as a Sports Nutritionist and Holistic Health Practitioner, she believes that food is medicine and works with clients to make every meal count towards better health.",
       "education": "Masters in Clinical Nutrition",
-      "degrees": ["Certified Sports Nutritionist", "Holistic Health Practitioner"],
+      "degree1": "Certified Sports Nutritionist", 
+      "degree2":"Holistic Health Practitioner",
       "schedules": [
         { "day": "Tuesday", "time": "10:30 AM - 12:30 PM" },
         { "day": "Thursday", "time": "2:30 PM - 4:30 PM" }

@@ -8,15 +8,15 @@ import YogaProducts from "../../YogaProducts/YogaProducts";
 
 const Home = () => {
     return (
-        <div className="mt-28">
-              <Banner></Banner>
-              <MainServices/>
-           
-             <Specialist/>
-                <YogaProducts/>
-                <Contracts/>
-             
-           
+        <div className="lg:mt-28">
+            <Banner></Banner>
+            <MainServices />
+
+            <Specialist />
+            <YogaProducts />
+            <Contracts />
+
+
         </div>
     );
 };

@@ -4,42 +4,268 @@
       "name": "Tranquil Mountain Yoga",
       "price": "$1,199",
       "description": "Escape to the serene mountains and rejuvenate your body and soul with daily yoga sessions, meditation, and nature hikes.",
-      "image": "https://i.ibb.co/3Mhw0TM/yoga-group-practicing.jpg"
+      "image": "https://i.ibb.co/3Mhw0TM/yoga-group-practicing.jpg",
+      "description1": "Escape to the serene mountains and rejuvenate your body and soul with daily yoga sessions, meditation, and nature hikes. Tranquil Mountain Yoga offers a variety of classes throughout the week to cater to your wellness needs. Join us in the lap of nature to find tranquility and balance.",
+      "schedule": [
+        {
+          "day": "Monday",
+          "class": "Vinyasa Flow",
+          "time": "9:00 AM - 10:30 AM",
+          "day1": "Wednesday",
+          "class1": "Hatha Yoga",
+          "time1": "6:00 PM - 7:30 PM"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Yoga Pavilion",
+          "description": "A dedicated, spacious yoga pavilion with scenic views for yoga and meditation sessions led by experienced instructors."
+        },
+        {
+          "name": "Spa and Wellness Center",
+          "description": "A luxurious spa and wellness center offering rejuvenating treatments, massages, and therapies to promote relaxation and well-being."
+        },
+        {
+          "name": "Nutritious Dining",
+          "description": "A restaurant specializing in healthy and nutritious meals, catering to dietary preferences and emphasizing locally sourced, organic ingredients."
+        },
+        {
+          "name": "Swimming Pool",
+          "description": "A heated swimming pool for water aerobics and relaxation, complete with poolside lounging areas and shade."
+        },
+        {
+          "name": "Healthcare Services",
+          "description": "Access to on-site healthcare services and a medical center with qualified professionals to address any health concerns."
+        },
+        {
+          "name": "Accessibility",
+          "description": "Accessibility features throughout the retreat to ensure a comfortable and enjoyable experience for all guests."
+        }
+      ]
     },
+
     {
       "id": 2,
       "name": "Forest Yoga Escape",
       "price": "$1,499",
       "description": "Connect with nature as you practice everyday yoga and fresh mindfulness surrounded by lush forests and wildlife.",
-      "image": "https://i.ibb.co/BN5NLRq/pic9.jpg"
+      "image": "https://i.ibb.co/BN5NLRq/pic9.jpg",
+      "description1": "Connect with nature as you practice everyday yoga and fresh mindfulness surrounded by lush forests and wildlife. Forest Yoga Escape offers a diverse range of classes, from Ashtanga to Yin Yoga, ensuring you experience holistic well-being in the heart of the forest.",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "class": "Ashtanga Yoga",
+          "time": "10:00 AM - 11:30 AM",
+          "day1": "Thursday",
+          "class1": "Yin Yoga",
+          "time1": "5:30 PM - 7:00 PM"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Fitness Center",
+          "description": "A well-equipped fitness center with senior-friendly exercise machines and equipment for maintaining physical fitness."
+        },
+        {
+          "name": "Swimming Pool",
+          "description": "A heated swimming pool for water aerobics and relaxation, complete with poolside lounging areas and shade."
+        },
+        {
+          "name": "Healthcare Services",
+          "description": "Access to on-site healthcare services and a medical center with qualified professionals to address any health concerns."
+        },
+        {
+          "name": "Transportation Services",
+          "description": "Convenient transportation services for exploring the local area or participating in off-site excursions."
+        },
+        {
+          "name": "Beach Access",
+          "description": "Direct access to the shoreline if located near the beach, allowing for beachfront yoga sessions and relaxing by the sea."
+        },
+        {
+          "name": "Island Adventures",
+          "description": "Organized island adventures, such as snorkeling trips, island tours, and wildlife encounters, for seniors seeking adventure."
+        }
+  
+      ]
     },
     {
       "id": 3,
       "name": "Wellness Spa relaxing Retreat",
       "price": "$999",
       "description": "Recharge your mind and body in a luxurious spa setting with yoga, meditation, and personalized wellness programs.",
-      "image": "https://i.ibb.co/3TKqnBJ/massage-spa-relaxing-treatment.jpg"
+      "image": "https://i.ibb.co/3TKqnBJ/massage-spa-relaxing-treatment.jpg",
+      "description1": "Recharge your mind and body in a luxurious spa setting with yoga, meditation, and personalized wellness programs. At Wellness Spa Relaxing Retreat, you can experience the ultimate relaxation while practicing Restorative Yoga, Mindfulness Meditation, and more.",
+      "schedule": [
+        {
+          "day": "Monday",
+          "class": "Restorative Yoga",
+          "time": "3:00 PM - 4:30 PM",
+          "day1": "Wednesday",
+          "class1": "Mindfulness Meditation",
+          "time1": "7:00 AM - 8:00 AM"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Yoga Pavilion",
+          "description": "A dedicated, spacious yoga pavilion with scenic views for yoga and meditation sessions led by experienced instructors."
+        },
+        {
+          "name": "Spa and Wellness Center",
+          "description": "A luxurious spa and wellness center offering rejuvenating treatments, massages, and therapies to promote relaxation and well-being."
+        },
+        {
+          "name": "Nature Trails",
+          "description": "Scenic nature trails and walking paths within the retreat's lush surroundings, perfect for leisurely strolls amidst natural beauty."
+        },
+        {
+          "name": "Swimming Pool",
+          "description": "A heated swimming pool for water aerobics and relaxation, complete with poolside lounging areas and shade."
+        },
+        {
+          "name": "Healthcare Services",
+          "description": "Access to on-site healthcare services and a medical center with qualified professionals to address any health concerns."
+        },
+        {
+          "name": "Beach Access",
+          "description": "Direct access to the shoreline if located near the beach, allowing for beachfront yoga sessions and relaxing by the sea."
+        }
+      
+      ]
     },
     {
       "id": 4,
       "name": "Beachside Bliss Yoga Retreat",
       "price": "$1,299",
       "description": " Unwind by the beach, practice yoga on the shore, and enjoy healthy, organic meals in this tropical paradise.",
-      "image": "https://i.ibb.co/jfmhS55/full-shot-women.jpg"
+      "image": "https://i.ibb.co/jfmhS55/full-shot-women.jpg",
+      "description1": "Unwind by the beach, practice yoga on the shore, and enjoy healthy, organic meals in this tropical paradise. Beachside Bliss Yoga Retreat offers Sunrise Yoga on the Beach, Sunset Yoga, and more, allowing you to embrace the beauty of the sea.",
+       "schedule": [
+        {
+          "day": "Tuesday",
+          "class": "Sunrise Yoga on the Beach",
+          "time": "6:30 AM - 8:00 AM",
+          "day1": "Thursday",
+          "class1": "Sunset Yoga",
+          "time1": "6:00 PM - 7:30 PM"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Yoga Pavilion",
+          "description": "A dedicated, spacious yoga pavilion with scenic views for yoga and meditation sessions led by experienced instructors."
+        },
+        {
+          "name": "Spa and Wellness Center",
+          "description": "A luxurious spa and wellness center offering rejuvenating treatments, massages, and therapies to promote relaxation and well-being."
+        },
+        {
+          "name": "Transportation Services",
+          "description": "Convenient transportation services for exploring the local area or participating in off-site excursions."
+        },
+        {
+          "name": "Fitness Center",
+          "description": "A well-equipped fitness center with senior-friendly exercise machines and equipment for maintaining physical fitness."
+        },
+        {
+          "name": "Swimming Pool",
+          "description": "A heated swimming pool for water aerobics and relaxation, complete with poolside lounging areas and shade."
+        },
+        {
+          "name": "Island Adventures",
+          "description": "Organized island adventures, such as snorkeling trips, island tours, and wildlife encounters, for seniors seeking adventure."
+        }
+  
+      ]
     },
     {
       "id": 5,
       "name": "Desert Yoga Retreat",
       "price": "$1,199",
       "description": "Experience the tranquility of the desert, explore ancient cultures, and practice yoga under the starry night sky.",
-      "image": "https://i.ibb.co/n6hKTQv/desrt.jpg"
+      "image": "https://i.ibb.co/n6hKTQv/desrt.jpg",
+      "description1": "Experience the tranquility of the desert, explore ancient cultures, and practice yoga under the starry night sky. Desert Yoga Retreat offers unique classes like Desert Flow and Stargazing Yoga, ensuring a one-of-a-kind experience.",
+      "schedule": [
+        {
+          "day": "Monday",
+          "class": "Desert Flow",
+          "time": "8:00 AM - 9:30 AM",
+          "day1": "Wednesday",
+          "class1": "Stargazing Yoga",
+          "time1": "8:30 PM - 10:00 PM"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Yoga Pavilion",
+          "description": "A dedicated, spacious yoga pavilion with scenic views for yoga and meditation sessions led by experienced instructors."
+        },
+        {
+          "name": "Spa and Wellness Center",
+          "description": "A luxurious spa and wellness center offering rejuvenating treatments, massages, and therapies to promote relaxation and well-being."
+        },
+        {
+          "name": "Nutritious Dining",
+          "description": "A restaurant specializing in healthy and nutritious meals, catering to dietary preferences and emphasizing locally sourced, organic ingredients."
+        },
+        {
+          "name": "Fitness Center",
+          "description": "A well-equipped fitness center with senior-friendly exercise machines and equipment for maintaining physical fitness."
+        },
+        {
+          "name": "Swimming Pool",
+          "description": "A heated swimming pool for water aerobics and relaxation, complete with poolside lounging areas and shade."
+        },
+        {
+          "name": "Island Adventures",
+          "description": "Organized island adventures, such as snorkeling trips, island tours, and wildlife encounters, for seniors seeking adventure."
+        }
+      ]
     },
     {
       "id": 6,
       "name": "Senior Wellness Retreat",
       "price": "$1,799",
       "description": "Escape to a tropical island, immerse yourself in yoga, snorkeling, and island adventures in a lush paradise.",
-      "image": "https://i.ibb.co/9wCvQKb/full-shot-old-people-meditating-together-23-2148247183.jpg"
+      "image": "https://i.ibb.co/9wCvQKb/full-shot-old-people-meditating-together-23-2148247183.jpg",
+      "description1": "Escape to a tropical island, immerse yourself in yoga, snorkeling, and island adventures in a lush paradise. Senior Wellness Retreat offers a special 'Golden Years Yoga' program for seniors looking to stay active and vibrant.",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "class": "Golden Years Yoga",
+          "time": "10:30 AM - 12:00 PM",
+          "day1": "Thursday",
+          "class1": "Snorkeling Adventure",
+          "time1": "2:00 PM - 4:00 PM"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Senior-Friendly Accommodations",
+          "description": "Comfortable and senior-friendly accommodations with easy access, grab bars, and other amenities to ensure a safe and pleasant stay."
+        },
+        {
+          "name": "Nutritious Dining",
+          "description": "A restaurant specializing in healthy and nutritious meals, catering to dietary preferences and emphasizing locally sourced, organic ingredients."
+        },
+        {
+          "name": "Nature Trails",
+          "description": "Scenic nature trails and walking paths within the retreat's lush surroundings, perfect for leisurely strolls amidst natural beauty."
+        },
+        {
+          "name": "Swimming Pool",
+          "description": "A heated swimming pool for water aerobics and relaxation, complete with poolside lounging areas and shade."
+        },
+        {
+          "name": "Healthcare Services",
+          "description": "Access to on-site healthcare services and a medical center with qualified professionals to address any health concerns."
+        },
+        {
+          "name": "Library and Relaxation Areas",
+          "description": "Quiet spaces for reading, relaxation, and enjoying leisurely activities like puzzles and games."
+        }
+      ]
     }
   ]
   

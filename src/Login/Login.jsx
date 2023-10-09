@@ -6,12 +6,16 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../ContextProvider/AuthProvider";
 import { FaGoogle } from "react-icons/fa";
 import swal from 'sweetalert';
+
 const Login = () => {
 
     const [logInError, setLogInError] = useState('')
 
     const { signIn, googleSignIn } = useContext(AuthContext)
+
     const location = useLocation()
+
+
     const navigate = useNavigate()
 
     const handleLogin = e => {
@@ -20,32 +24,28 @@ const Login = () => {
         const email = e.target.email.value
         const password = e.target.password.value
 
-        if (email, password) {
-            signIn(email, password)
-                .then(result => {
-                    swal("Good job!", "You clicked the button!", "success");
-                    navigate(location?.state ? location.state : "/")
-                })
-                .catch(error => console.error(error))
+        signIn(email, password)
+            .then((result) => {
+                console.log(result.user);
+                navigate(location?.state ? location.state : "/")
+                swal("Good job!", "Log in Successful!", "success")
 
-        } else {
-            setLogInError("Invalid Email and password")
-        }
+            })
+            .catch(() => {
+                setLogInError("Invalid Email and password")
+            })
 
-
-
+        e.target.reset()
 
     }
-
-
 
     const handleGoogle = e => {
         e.preventDefault()
 
         googleSignIn()
-            .then(result => {
-                swal("Good job!", "You clicked the button!", "success");
-                console.log(result.user);
+            .then(() => {
+                swal("Good job!", "Google log in Successful!!", "success");
+                navigate(location?.state ? location.state : "/")
             })
             .catch(error => {
                 console.error(error)
@@ -55,7 +55,7 @@ const Login = () => {
 
 
     return (
-        <div className="mt-32 flex justify-center">
+        <div className="lg:mt-32 flex justify-center">
 
             <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <form onSubmit={handleLogin} className="space-y-6">

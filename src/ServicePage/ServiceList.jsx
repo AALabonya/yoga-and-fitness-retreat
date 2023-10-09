@@ -14,12 +14,12 @@ const ServiceList = () => {
 
 
     return (
-        <div className="mt-28">
+        <div className="lg:mt-28 mt-5">
             <div>
 
                 <div className="relative mx-4 -mt-6 h-[] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                     <img
-                        src="https://i.ibb.co/N27G3Qh/yogaex.jpg"
+                        src="https://i.ibb.co/MsrtN1m/YOGA-IN-CENTRAL-PARK-1171x675.jpg"
                         alt="img-blur-shadow" className="w-[1600px] h-[600px]"
 
                     />

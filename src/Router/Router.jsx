@@ -8,6 +8,7 @@ import Register from "../Login/Register";
 import Login from "../Login/Login";
 import ViewShowDetails from "../ViewDetails/ViewShowDetails";
 import PrivateRoute from "./PrivateRoute";
+import DoctorList from "../Doctor/DoctorList";
 
 
 const myCreateRouter = createBrowserRouter([
@@ -31,8 +32,13 @@ const myCreateRouter = createBrowserRouter([
             },
             {
                path:"/service/:id",
-               element:<ViewShowDetails></ViewShowDetails>,
+               element:<PrivateRoute><ViewShowDetails></ViewShowDetails></PrivateRoute>,
                loader:()=>fetch('/data.json')
+            },
+            {
+                path:"/specialist",
+                element:<PrivateRoute><DoctorList></DoctorList></PrivateRoute>
+
             },
             {
                 path:"/register",
