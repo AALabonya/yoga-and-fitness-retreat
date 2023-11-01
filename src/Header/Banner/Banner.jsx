@@ -30,7 +30,7 @@ const Banner = () => {
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine" data-aos-duration="1000" className='absolute top-60 overflow-x-hidden'>
 
-                  <h1 className='font-bold text-white text-xl lg:text-5xl mb-2'>Welcome To Our Yoga and and Fitness Retreats center.</h1>
+                  <h1 className='font-bold text-white text-xl lg:text-8xl mb-2'>Welcome To Our Yoga and and Fitness Retreats center.</h1>
                   <p className='font-semibold overflow-x-hidden text-white text-xs lg:text-xl'>You are welcome to visit our center where every person is treated with high attention</p>
                 </div>
 

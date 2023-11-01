@@ -9,6 +9,7 @@ const Register = () => {
     const [showError, setShowError] = useState('')
 
     const navigate = useNavigate()
+    
     const { createUser, logOut, updateUser } = useContext(AuthContext)
 
 
